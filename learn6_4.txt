@@ -1,0 +1,72 @@
+//T：键入整数并显示
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int x;
+
+	printf("请输入一个整数:");
+	scanf("%d", &x);			//读取整数的值
+
+	printf("您输入的是%d", x);
+
+	return 0;
+
+}
+
+//T：读取一个整数并显示其10倍数的值
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int x;
+
+	printf("请输入一个整数:");
+	scanf("%d", &x);
+
+	printf("它的10倍数是%d", 10*x);
+
+	return 0;
+}
+
+//T：读取两个整数的值，显示它们的和
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int n1;
+	int n2;
+	int sum;
+
+	puts("请输入两个整数。");
+	printf("整数1:");
+	scanf("%d", &n1);
+	printf("整数2:");
+	scanf("%d", &n2);
+
+	sum = n1 + n2;
+
+	printf("它们的和是%d", sum);
+
+	return 0;
+
+}
+
+//T：读取两个整数并显示它们的乘积
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int n1;
+	int n2;
+	
+	puts("请输入两个整数");
+	printf("整数1:");
+	scanf("%d", &n1);
+	printf("整数2:");
+	scanf("%d", &n2);
+
+	printf("它们的乘积是%d", n1 * n2);
+
+	return 0;
+}
