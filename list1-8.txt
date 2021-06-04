@@ -4,9 +4,12 @@
 int main()
 {
 	int vx, vy;                     //声明vx，vy为int类型的变量
+
 	vx = 57;                        //把57赋给vx
 	vy = vx + 10;                   //把vx+10赋给vy
+    
 	printf("vx 的值是%d。\n", vx);  //显示vx的值
 	printf("vy 的值是%d。\n", vy);  //显示vy的值
+    
 	return 0;
 }
